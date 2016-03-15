@@ -1,0 +1,830 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  background-color: #F5F5F5;
+}
+
+.home-wrap {
+  display: flex;
+}
+
+.header {
+  width: 35%;
+}
+
+.header header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(../img/room-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header header h1 {
+  margin: 0;
+  padding: 1.5rem 0 0 1rem;
+  font-weight: 500;
+  font-size: 5rem;
+  color: #F5F5F5;
+  line-height: 4rem;
+}
+
+.header header nav {
+  text-align: right;
+  margin: 2rem 0;
+  padding: 0 2rem 0 0;
+  font-size: 2rem;
+  color: #F5F5F5;
+  font-weight: 200;
+}
+
+.header header nav li {
+  color: #F5F5F5;
+  margin: 1rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+footer {
+  text-align: right;
+}
+
+footer .icon-f {
+  display: inline-block;
+  margin: 0;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+footer p {
+  display: block;
+  text-align: right;
+  margin: 1rem 0 2rem 0;
+  padding: 0 2rem 0 0;
+  color: #F5F5F5;
+  font-size: 1.2rem;
+}
+
+#office-f {
+  width: 30px;
+  cursor: pointer;
+}
+
+#mail-f {
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#cell-f {
+  height: 30px;
+  cursor: pointer;
+}
+
+#office-f .cls-1 {
+  fill: #F5F5F5;
+  stroke: #F5F5F5;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+
+#mail-f .cls-1 {
+  fill: none;
+  stroke: #F5F5F5;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+
+#cell-f {
+  fill: #F5F5F5;
+}
+
+.sections {
+  flex: 1;
+  width: 65%;
+  min-width: 320px;
+}
+
+.h1-container {
+  display: flex;
+  padding: 12rem 0 0 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+.h1-container h1 {
+  margin: 0;
+}
+
+.h1-container h1:nth-child(1) {
+  font-size: 5rem;
+  padding-right: 31rem;
+}
+
+.h1-container h1:nth-child(2) {
+  font-size: 4rem;
+  line-height: .7rem;
+}
+
+.h1-container h1:nth-child(3) {
+  font-size: 5rem;
+  padding-left: 41rem;
+}
+
+#home .p1 {
+  color: #898989;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 6rem 2rem 4rem 2rem;
+}
+
+.p1 p {
+  width: 50%;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0 15rem;
+}
+
+#home a {
+  color: #5a5a5a;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: solid 2px #e7e7e7;
+  border-radius: .5rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 3rem;
+  display: block;
+  border: 0;
+  border-top: 2px solid #cccccc;
+  border-radius: 5px;
+  width: 80%;
+  padding: 0;
+}
+
+.p2 p {
+  display: block;
+  font-size: 2.5rem;
+  color: #898989;
+  text-align: center;
+}
+
+#recent-work h3 {
+  font-size: 2.5rem;
+  margin: 10rem 0 3rem 10rem;
+}
+
+.recent-work {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 img {
+  border-radius: 20px;
+  height: 500px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.col1 img:hover {
+  height: 600px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col2 div {
+  padding-top: 1rem;
+}
+
+.col2 div img {
+  border-radius: 20px;
+  display: block;
+  cursor: pointer;
+  height: 245px;
+  transition: all .5s ease-in-out;
+}
+
+.col2 div img:hover {
+  height: 345px;
+  transition: all .5s ease-in-out;
+}
+
+#gallery h3 {
+  font-size: 2.5rem;
+  margin: 10rem 0 3rem 10rem;
+}
+
+.more-work {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem 0;
+  display: block;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.col3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col3 img {
+  border-radius: 20px;
+  height: 355px;
+  display: block;
+  cursor: pointer;
+  padding: 0 1rem 1rem 0;
+  transition: all .5s ease-in-out;
+}
+
+.col3 img:hover {
+  height: 455px;
+}
+
+.col4 img {
+  border-radius: 20px;
+  height: 720px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.col4 img:hover {
+  height: 920px;
+  padding-bottom: 1rem;
+}
+
+.col5 {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.col5 img {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 760px;
+  padding: 0 .5rem;
+  transition: all .5s ease-in-out;
+}
+
+.col5 img:hover {
+  height: 960px;
+}
+
+.col6 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.col6 img {
+  border-radius: 20px;
+  height: 680px;
+  transition: all .5s ease-in-out;
+}
+
+.col6 img:hover {
+  height: 780px;
+}
+
+.contact-wrap {
+  margin: 5rem 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#office-c {
+  width: 100px;
+  cursor: pointer;
+}
+
+#mail-c {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#cell-c {
+  height: 100px;
+  cursor: pointer;
+}
+
+#office-c .cls-1 {
+  fill: #898989;
+  stroke: #898989;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+
+#mail-c .cls-1 {
+  fill: none;
+  stroke: #898989;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+
+#cell-c {
+  fill: #898989;
+}
+
+.icon-c {
+  width: 300px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.icon-c p {
+  font-size: 2rem;
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 1900px) {
+  footer p {
+    color: #F5F5F5;
+  }
+  #office-f .cls-1 {
+    fill: #F5F5F5;
+    stroke: #F5F5F5;
+  }
+  #mail-f .cls-1 {
+    stroke: #F5F5F5;
+  }
+  #cell-f {
+    fill: #F5F5F5;
+  }
+  .h1-container h1:nth-child(1) {
+    font-size: 4rem;
+    padding-right: 25rem;
+  }
+  .h1-container h1:nth-child(2) {
+    font-size: 3rem;
+    line-height: .5rem;
+  }
+  .h1-container h1:nth-child(3) {
+    font-size: 4rem;
+    padding-left: 33rem;
+  }
+  .p1 p {
+    font-size: 1.8rem;
+    padding: 0 10rem;
+  }
+  .p2 p {
+    font-size: 1.8rem;
+  }
+  #recent-work h3 {
+    font-size: 2rem;
+  }
+  .col3 img {
+    height: 255px;
+  }
+  .col3 img:hover {
+    height: 320px;
+  }
+  .col4 img {
+    height: 520px;
+  }
+  .col4 img:hover {
+    height: 620px;
+  }
+  .col5 img {
+    height: 550px;
+  }
+  .col5 img:hover {
+    height: 650px;
+  }
+  .col6 img {
+    height: 495px;
+  }
+  .col6 img:hover {
+    height: 550px;
+  }
+  .contact-wrap {
+    margin: 5rem 10rem;
+  }
+  .icon-c p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    width: 25%;
+  }
+  .p1 p {
+    font-size: 1.5rem;
+    padding: 0 10rem;
+  }
+  .p2 p {
+    font-size: 1.5rem;
+  }
+  #recent-work h3 {
+    font-size: 2rem;
+    margin: 10rem 0 3rem 5rem;
+  }
+  .col1 img {
+    height: 300px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  .col1 img:hover {
+    height: 500px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  .col2 div img {
+    display: block;
+    cursor: pointer;
+    height: 145px;
+    transition: all .5s ease-in-out;
+  }
+  .col2 div img:hover {
+    height: 245px;
+    transition: all .5s ease-in-out;
+  }
+  #gallery h3 {
+    font-size: 2rem;
+    margin: 10rem 0 3rem 5rem;
+  }
+  .col3 img {
+    height: 155px;
+  }
+  .col3 img:hover {
+    height: 340px;
+  }
+  .col4 img {
+    height: 320px;
+  }
+  .col4 img:hover {
+    height: 700px;
+  }
+  .col5 img {
+    height: 336px;
+  }
+  .col5 img:hover {
+    height: 730px;
+  }
+  .col6 img {
+    height: 306px;
+  }
+  .col6 img:hover {
+    height: 460px;
+  }
+  #office-c {
+    width: 50px;
+  }
+  #mail-c {
+    width: 50px;
+  }
+  #cell-c {
+    height: 50px;
+  }
+  .contact-wrap {
+    margin: 5rem 10rem;
+  }
+  .icon-c p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header header h1 {
+    font-size: 4rem;
+  }
+  .h1-container h1:nth-child(1) {
+    font-size: 3rem;
+    padding-right: 19rem;
+  }
+  .h1-container h1:nth-child(2) {
+    font-size: 2rem;
+    line-height: .4rem;
+  }
+  .h1-container h1:nth-child(3) {
+    font-size: 3rem;
+    padding-left: 25rem;
+  }
+  .p1 p {
+    font-size: 1.5rem;
+    padding: 0 3rem;
+  }
+  .col3 img {
+    height: 155px;
+  }
+  .col3 img:hover {
+    height: 200px;
+  }
+  .col4 img {
+    height: 320px;
+  }
+  .col4 img:hover {
+    height: 400px;
+  }
+  .col5 img {
+    height: 336px;
+  }
+  .col5 img:hover {
+    height: 430px;
+  }
+  .col6 img {
+    height: 306px;
+  }
+  .col6 img:hover {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-wrap {
+    display: block;
+    min-height: 100vh;
+  }
+  .header {
+    width: 100%;
+  }
+  .header header {
+    position: static;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: inherit;
+    display: block;
+    background: url(../img/room-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header header h1 {
+    margin: 0;
+    padding: 2.5rem 2rem;
+    font-weight: 500;
+    font-size: 5rem;
+    color: #F5F5F5;
+    line-height: 4rem;
+  }
+  .header header nav {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .h1-container {
+    padding: 6rem 0 0;
+  }
+  .sections {
+    width: 100vw;
+  }
+  .contact-wrap {
+    color: #F5F5F5;
+    background: url(../img/room-2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0;
+    padding: 5rem 10rem;
+  }
+  .hr2 {
+    display: none;
+  }
+  #office-c .cls-1 {
+    fill: #F5F5F5;
+    stroke: #F5F5F5;
+  }
+  #mail-c .cls-1 {
+    stroke: #F5F5F5;
+  }
+  #cell-c {
+    fill: #F5F5F5;
+  }
+  .contact-wrap {
+    padding: 5rem 1rem;
+  }
+  .h1-container h1:nth-child(1) {
+    font-size: 3rem;
+    padding-right: 23rem;
+  }
+  .h1-container h1:nth-child(2) {
+    font-size: 1.5rem;
+    line-height: .3rem;
+    padding-right: 4.5rem;
+  }
+  .h1-container h1:nth-child(3) {
+    font-size: 3rem;
+    padding-left: 20rem;
+  }
+  #home a {
+    font-size: 1.2rem;
+    width: 100px;
+    padding: 1rem 1.5rem;
+  }
+  #recent-work h3 {
+    font-size: 1.5rem;
+    margin: 8rem 0 1rem 1rem;
+  }
+  #gallery h3 {
+    font-size: 1.5rem;
+    margin: 8rem 0 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h1-container h1:nth-child(1) {
+    font-size: 2rem;
+    padding-right: 17rem;
+  }
+  .h1-container h1:nth-child(2) {
+    font-size: 1.5rem;
+    line-height: .2rem;
+    padding-right: 4.5rem;
+  }
+  .h1-container h1:nth-child(3) {
+    font-size: 2rem;
+    padding-left: 12rem;
+  }
+  #home .p1 {
+    color: #898989;
+    display: block;
+    margin: 0 auto;
+  }
+  .p1 p {
+    display: block;
+    width: 260px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+  }
+  #home a {
+    margin-top: 4rem;
+  }
+  .p2 {
+    padding: 0 2rem;
+  }
+  .recent-work {
+    display: block;
+  }
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+  .col1 img,
+  .col1 img:hover {
+    height: 570px;
+    padding-bottom: 0;
+  }
+  .col2 {
+    display: block;
+  }
+  .col2 div {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .col2 div img,
+  .col2 div img:hover {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    height: 255px;
+  }
+  .more-work {
+    margin: 0 auto;
+    width: 100vw;
+    padding: 1rem 0;
+    display: block;
+    text-align: center;
+  }
+  .row {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .col3 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .col3 img,
+  .col3 img:hover {
+    height: 255px;
+    padding: 1rem 0 0 0;
+    margin: 0 auto;
+  }
+  .col4 {
+    display: block;
+    margin: 0;
+    padding: 1rem 0 0 0;
+    text-align: center;
+  }
+  .col4 img,
+  .col4 img:hover {
+    height: 570px;
+    padding-bottom: 0;
+  }
+  .col5 {
+    padding: 0;
+    display: block;
+    padding-top: 1rem;
+  }
+  .col5 img,
+  .col5 img:hover {
+    display: block;
+    height: 570px;
+    padding: 0 0 1rem 0;
+    margin: 0 auto;
+  }
+  .col6 {
+    padding: 0;
+  }
+  .col6 img,
+  .col6 img:hover {
+    padding: 0 0 1rem 0;
+    height: 255px;
+  }
+  #office-c {
+    width: 30px;
+    cursor: pointer;
+  }
+  #mail-c {
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  #cell-c {
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .col1 img,
+  .col1 img:hover {
+    height: 450px;
+  }
+  .col2 div img,
+  .col2 div img:hover {
+    height: 200px;
+  }
+  .col3 img,
+  .col3 img:hover {
+    height: 200px;
+  }
+  .col4 img,
+  .col4 img:hover {
+    height: 450px;
+  }
+  .col5 img,
+  .col5 img:hover {
+    height: 450px;
+  }
+  .col6 img,
+  .col6 img:hover {
+    height: 200px;
+  }
+}
